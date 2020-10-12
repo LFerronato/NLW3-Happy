@@ -8,6 +8,7 @@
 ## Minhas Personalizações
 * Utilizei styled-components
 * Utilizei ESLint e Prettier
+* Utilizei no Web mobile-first - responsividade.
 
 <br />
 
