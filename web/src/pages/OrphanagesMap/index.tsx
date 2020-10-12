@@ -1,8 +1,8 @@
 import React from 'react';
 import { FiPlus } from 'react-icons/fi'
 
-import { Map } from 'react-leaflet'
-import { TileLayer } from 'react-leaflet'
+import { Map, TileLayer, Marker, Popup, ImageOverlay } from 'react-leaflet'
+import { icon } from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
 import {
@@ -42,6 +42,9 @@ const OrphanagesMap: React.FC = () => {
           <TileLayer
             url={`https://api.mapbox.com/styles/v1/mapbox/light-v10/tiles/256/{z}/{x}/{y}@2x?access_token=${process.env.REACT_APP_MAPBOX_TOKEN}`}
           />
+          <Marker position={[-25.4539228, -49.201581]} icon={icon({ iconUrl: mapMarker })} >
+            <Popup><span>A pretty CSS3 popup. <br /> Easily customizable.</span></Popup>
+          </ Marker>
         </Map>
 
 
