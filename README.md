@@ -1,6 +1,6 @@
 # HAPPY
 ### Aplicação desenvolvida na Next Level Week #3 da Rocketseat
-![Logo](./web/src/assets/logo.svg)
+![Logo](./web/src/assets/logo.jpg)
 ### (server, web, mobile)
 
 <br />
