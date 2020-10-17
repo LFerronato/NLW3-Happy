@@ -14,6 +14,37 @@ export const Content = styled.div`
     z-index: 5;
   }
 
+  .leaflet-popup-content-wrapper {
+    background: rgba(255,255,255,0.8);
+    border-radius: 20px;
+    box-shadow: none;
+  }
+  .leaflet-popup-close-button { 
+    display: none
+  }
+  .leaflet-popup-content {
+    color: #0089a5;
+    font-size: 20px;
+    font-weight: bold;
+
+    display: center;
+    justify-content: space-between;
+    align-items: center;
+
+    > a {
+      width: 40px;
+      height: 40px;
+      background: #15c3d6;
+      box-shadow: 17.2868px 27.6589px 41.4884px rgba(23, 142, 166, 0.16);
+      border-radius: 12px;
+
+      display: center;
+      justify-content: center;
+      align-items: center;
+    }
+
+  }
+
   @media (max-width: 770px) {
     display: flex;
     flex-direction: column;
